@@ -43,7 +43,7 @@ O objetivo é demonstrar código limpo, organizado, compatível e com atenção 
 ### CSS Inline
 - CSS principal inline para compatibilidade máxima;  
 - `<style>` mínimo usado para reset, media query mobile e dark mode;  
-- Dark mode aplicado com consistência, evitando excesso de detalhes.  
+- Dark mode aplicado com consistência, evitando detalhes excessivos.  
 
 ### Botões
 - CTAs implementados com tabela, `<td bgcolor>` e `<a>` estilizado;  
@@ -62,7 +62,7 @@ O objetivo é demonstrar código limpo, organizado, compatível e com atenção 
 ### Hero 
     - Headline + subheadline
     - CTA 
-    - Elemento visual (mock)
+    - Elemento visual (mockup)
 
 ### Como funciona
     - Grid com 3 passos
@@ -78,8 +78,8 @@ O objetivo é demonstrar código limpo, organizado, compatível e com atenção 
 - Baixe os arquivos `index.html` e `styles.css` da pasta `lp`
 - Abra o `index.html` no navegador
 - Para testar mobile:
-- Reduza a largura da janela do navegador
-- Ou utilize Inspecionar Elementos para simular o dispositivo móvel
+    - Reduza a largura da janela do navegador
+    - Ou utilize Inspecionar Elementos para simular o dispositivo móvel
 
 ## Decisões Técnicas
 
@@ -103,13 +103,10 @@ A página foi construída utilizando:
 - Utilização de `aria-label`
 - Elementos interativos semanticamente corretos, tendo `a` com href
 
-### Performance
-- Nenhum framework ou JS utilizado, garantindo carregamento rápido.
-
 # Observações Finais
 
 Não foi utilizada nenhuma linguagem de programação ou framework no desenvolvimento do teste, garantindo e respeitando a compatibilidade e performance. A criação do layout responsivo buscou focar na acessibilidade, experiência do usuário.
 
 # O que eu faria diferente com mais tempo?
 
-Eu construiria as seções com mais conteúdo, sem fugir do escopo do projeto, e utilizaria alguma linguagem de programação, como JavaScript, para funcionalidades extras. Além disso, não adicionaria imagens, pois elas poderiam impactar a performance e o tempo de carregamento da página.
+Eu construiria as seções com mais conteúdo, sem fugir do escopo do projeto, e utilizaria alguma linguagem de programação, como JavaScript, para funcionalidades extras.
