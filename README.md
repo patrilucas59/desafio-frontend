@@ -3,6 +3,7 @@
 Este projeto consiste na implementação de dois cenários distintos para avaliar domínio em *HTML/CSS*:
 - *Email Marketing em HTML* - considerando as limitações dos clientes, compatibilidade, responsividade e suporte a dark mode.
 - *Landing Page* - página estática, responsiva, acessível e sem uso de JavaScript ou frameworks.
+- *Email V2* - versão alternativa do email explorando gatilho de urgência com um bloco de Oferta Relâmpago e CTA secundário, conforme desafio opcional proposto
 
 O objetivo é demonstrar código limpo, organizado, compatível e com atenção aos detalhes do mundo real.
 
@@ -106,6 +107,45 @@ A página foi construída utilizando:
 # Observações Finais
 
 Não foi utilizada nenhuma linguagem de programação ou framework no desenvolvimento do teste, garantindo e respeitando a compatibilidade e performance. A criação do layout responsivo buscou focar na acessibilidade, experiência do usuário.
+
+---
+
+# Mesa 4x - Desafio Extra - Email V2
+
+## Conteúdo
+
+- Bloco adicional "Oferta Relâmpago"
+- Contagem Estática com emoji ilustrativo
+- CTA secundária dentro do bloco de urgência
+
+## Como rodar localmente
+
+1. Baixe o arquivo `index.html` da pasta `email-v2`
+2. Abra diretamente no seu navegador (Chrome, Edge ou Safari)
+3. Para testar o dark mode: 
+    - Ative o modo escuro nas configurações de seu sistema operacional;
+    - Ou utilize o Inspecionar Elementos para simular `prefers-color-scheme`
+
+
+## Decisões Técnicas
+
+### Estrutura
+
+- A arquitetura foi mantidad e baseada em tabelas para compatibilidade com clientes
+- Bloco inserido respeitando o fluxo do layout original
+
+### Contagem Estática
+
+- Implementação fixa (sem JavaScript)
+- Representação visual de urgência, respeitando limitações de clientes de email
+
+### Botão
+
+- CTA implementada utilizando `<table>` + `<td bgcolor>`
+- Cor contrastante para destacar o gatilho de escassez
+- Estrutura compatível com Outlook (estratégia "bulletproof")
+
+---
 
 # O que eu faria diferente com mais tempo?
 
